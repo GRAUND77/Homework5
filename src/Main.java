@@ -13,7 +13,7 @@ public class Main {
 
         // Task 2
 
-        for (int friday = 1; friday < 31; friday = friday + 7) {
+        for (int friday = 1; friday < 32; friday = friday + 7) {
             System.out.println("Сегодня пятница, " + friday + "-е число." + " Необходимо подготовить отчет.");
         }
 
