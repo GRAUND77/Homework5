@@ -26,10 +26,10 @@ public class Main {
             System.out.println(theLastYear + 79);
         }
         System.out.println();
-        for (int d = 1822; d < 2122; d = d + 1)
-        if (d % 79 == 0) {
-            System.out.println(d);
-        }
+        for (int d = before; d < after; d = d + 1)
+            if (d % 79 == 0) {
+                System.out.println(d);
+            }
     }
 }
 
