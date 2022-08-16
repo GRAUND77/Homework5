@@ -25,5 +25,11 @@ public class Main {
         for (int theLastYear = 0; theLastYear <= 2022; theLastYear = theLastYear + 79) {
             System.out.println(theLastYear + 79);
         }
+        System.out.println();
+        for (int d = 1822; d < 2122; d = d + 1)
+        if (d % 79 == 0) {
+            System.out.println(d);
+        }
     }
 }
+
